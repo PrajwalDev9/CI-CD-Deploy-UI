@@ -1,0 +1,23 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ 
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    margin: 10px 5px;
+}
+ 
+.navbar ul li
+{
+    margin: 0 8px;
+}
+ 
+.login-button:hover{
+    background: rgb(112, 220, 235);
+}
+ 

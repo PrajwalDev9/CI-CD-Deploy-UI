@@ -1,0 +1,119 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to right,#2196f3, #01579b);
+    padding:10px;
+    width:100%;
+}
+ 
+ 
+ 
+.search-bar
+{
+    display: flex;
+    padding:5px;
+    background: white;
+    border-radius:10px;
+    border:none;
+    width:30%;
+}
+ 
+
+ 
+.search-bar .search-icon
+{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+}
+ 
+.search-bar select
+{
+   border:0;
+    width: 100%;
+}
+ 
+.search-bar select:focus
+{
+    transition: 1s;
+}
+ 
+.search-bar select:focus
+{
+    outline:none;
+    transition-delay: 0.5s;
+}
+
+.navbar .profile-name3
+{
+    margin-top:5px;
+    margin-right:10px;
+    display: flex;
+   
+    justify-content:flex-start;
+}
+ 
+.navbar .profile-name3 .profile-icon3
+{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+ 
+.navbar .profile-name3 .profile-icon3 .icon3
+{
+    display: flex;
+    justify-content: center;
+    margin-top:3px;
+}
+ 
+.navbar .profile-name3 .profile-text3
+{
+    display: flex;
+    margin-top: 5px;
+    color: rgb(218, 207, 207);
+}
+ 
+.navbar .quizmaster{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.list1
+{
+    width:20%;
+    background-color: white;
+    list-style: none;
+    margin-top: -15px;
+    border-radius:10px 10px 10px 10px;
+    margin-top: 1px;
+    list-style: none;
+    padding:10px;
+    text-align: center;
+}
+ 
+.list1 li a
+{
+    text-decoration: none;
+    color:black;
+}
+ 
+ 
+@media (max-width:450px)
+{
+    .navbar .profile-name .profile-text
+    {
+        display:none;
+    }
+    .navbar .quizmaster
+    {
+        font-size: 10px;
+        margin-top:20px;
+    }
+}
+ 

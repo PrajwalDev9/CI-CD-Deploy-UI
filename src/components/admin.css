@@ -1,0 +1,32 @@
+.typewriter {
+    overflow: hidden; /* Ensures the content is not visible until the animation starts */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    animation: typewriter 3s steps(40, end); /* 2s duration, 40 steps, steps function for typewriter effect */
+    color: white;
+    font-size: 20px;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0; /* Starts with 0 width */
+    }
+    to {
+      width: 100%; /* Ends with 100% width */
+    }
+  }
+  .blinking-question-mark {
+    animation: blink 1s infinite;
+    font-size: 25px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

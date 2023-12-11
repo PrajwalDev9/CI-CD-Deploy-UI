@@ -1,0 +1,195 @@
+.profile
+{
+    display: flex;
+    height:15em;
+    justify-content: center;
+    background: linear-gradient(to right,#2196f3, #01579b);
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0;
+    gap:10px;
+    color:White;
+}
+ 
+.profile:hover
+{
+    transform:scale(1.1);
+    transition: 0.8s;
+}
+ 
+.profile .profile-pic
+{
+   
+    width:40%;
+    height:100%;
+   
+}
+ 
+.profile-pic img
+{
+    height:100%;
+    width:100%;
+}
+ 
+.profile .profile-details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+   
+}
+ 
+.profile-details .details
+{
+    font-size: 25px;
+    display: flex;
+    margin:10px 0;
+}
+ 
+.banner-text1
+{
+    font-size:5em;
+    font-family: 'Roboto', sans-serif;
+    animation: text 3s ease infinite;
+    text-align: center;
+}
+ 
+.item:hover
+{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+ 
+@keyframes text
+{
+    0% {color: black;}
+    25% {color: blue;}
+    50% {color: gray;}
+    100% {color: black;}
+}
+ 
+@media (max-width:700px)
+{
+    .profile
+    {
+        flex-direction: column;
+        width:60%;
+    }
+ 
+    .profile .profile-pic
+{
+   
+    width:40%;
+    height:80%;
+    align-self: center;
+}
+.profile .profile-details
+{
+    align-self: center;
+}
+.profile-details .details
+{
+    font-size:18px;
+    overflow: hidden;
+}
+}
+ 
+@media (max-width:600px)
+{
+    .navbar h1
+    {
+        margin:5px 0;
+        font-size:25px;
+    }
+    .profile
+    {
+        flex-direction: column;
+        width:60%;
+    }
+ 
+    .profile .profile-pic
+{
+   
+    width:50%;
+    height:80%;
+    align-self: center;
+}
+.profile .profile-details
+{
+    align-self: center;
+}
+.profile-details .details
+{
+    font-size:18px;
+    overflow: hidden;
+}
+}
+ 
+@media (max-width:460px)
+{
+    .navbar h1
+    {
+        margin:5px 0;
+        font-size:23px;
+    }
+    .profile-name .profile-icon
+    {
+        margin-right: 10px;
+    }
+    .profile-name .profile-text
+    {
+        display: none;
+   
+    }
+}
+ 
+@media (max-width:420px)
+{
+    .navbar h1
+    {
+        margin:5px 0;
+        font-size:22px;
+    }
+    .profile
+    {
+        width:70%;
+    }
+}
+ 
+@media (max-width:400px)
+{
+    .navbar h1
+    {
+        margin:5px 0;
+        font-size:21px;
+    }
+    .profile
+    {
+        width:75%;
+    }
+}
+ 
+@media (max-width:350px)
+{
+    .profile
+    {
+        width:80%;
+    }
+}
+ 
+@media (max-width:331px)
+{
+    .profile
+    {
+        width:83%;
+    }
+}
+ 
+@media (max-width:281px)
+{
+    .profile
+    {
+        width:105%;
+    }
+}

@@ -1,0 +1,60 @@
+.container
+{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+ 
+.leaderboard
+{
+    font-size: 3em;
+    padding-top:20px;
+    animation: text 3s ease infinite;
+    font-family: 'Arvo', serif;
+font-family: 'Gabarito', sans-serif;
+}
+ 
+@keyframes text
+{
+    0% {color: black;}
+    25% {color: blue;}
+    50% {color: gray;}
+    100% {color: black;}
+}
+ 
+.container fieldset
+{
+    border-radius: 5px;
+    width:80%;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: rgb(0, 8, 83);
+}
+ 
+.container fieldset legend
+{
+    margin-left: 10px;
+}
+ 
+.container fieldset .card
+{
+    padding: 20px 20px;
+ 
+}
+ 
+ 
+.png
+{
+    width: 30px;
+    height:40px;
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+}
+
+
+ 

@@ -1,0 +1,127 @@
+.nav1
+{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to right,#2196f3, #01579b);
+    padding:10px;
+    width:100%;
+}
+ 
+ .nav-button
+ {
+     padding:10px 20px;
+     background:white;
+     border: none;
+     cursor: pointer;
+     border-radius:10px;
+     font-size: 15px;
+ }
+ 
+.search-bar1
+{
+    display: flex;
+    padding:5px;
+    background: white;
+    border-radius:10px;
+    border:none;
+    width:30%;
+}
+ 
+
+ 
+.search-bar1 .search-icon
+{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+}
+ 
+.search-bar1 select
+{
+   border:0;
+    width: 100%;
+}
+ 
+.search-bar1 select:focus
+{
+    transition: 1s;
+}
+ 
+.search-bar1 select:focus
+{
+    outline:none;
+    transition-delay: 0.5s;
+}
+.nav1 .profile-name1
+{
+    margin-top:5px;
+    margin-right:10px;
+    display: flex;
+   
+    justify-content:flex-start;
+}
+ 
+.nav1 .profile-name1 .profile-icon1
+{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+ 
+.nav1 .profile-name1 .profile-icon1 .icon1
+{
+    display: flex;
+    justify-content: center;
+    margin-top:3px;
+}
+ 
+.nav1 .profile-name1 .profile-text1
+{
+    margin-top: 5px;
+    color: rgb(218, 207, 207);
+}
+ 
+.nav1 .header2{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list3
+{
+    width:11.5%;
+    background:white;
+    list-style: none;
+    margin-top: 1px;
+    border-radius:10px 10px 10px 10px;
+    /* margin-top: 1px; */
+    list-style: none;
+    padding:10px;
+    text-align: center;
+}
+ 
+.list3 li a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.dropDown
+{
+    background: transparent;
+    border: none;
+    margin-top: -1px;
+}
+ 
+ 
+@media (max-width:450px)
+{
+    .navbar .profile-name .profile-text
+    {
+        display:none;
+    }
+}
+ 

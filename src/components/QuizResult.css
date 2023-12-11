@@ -1,0 +1,9 @@
+.dashboard-button
+{
+    padding:12px;
+    border-radius:10px;
+    font-size: large;
+    border:none;
+    background: rgba(172, 198, 233, 0.719);
+    cursor: pointer;
+}

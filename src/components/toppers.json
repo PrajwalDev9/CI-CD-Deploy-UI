@@ -1,0 +1,113 @@
+[
+    {
+      "quizTopic": "React",
+      "quizInfo": [
+        {
+          "quizName": "Redux",
+          "toppers": [
+            {
+              "id": 704,
+              "quizId": 1,
+              "quizTopic": "Java",
+              "studentId": 23,
+              "username": "Moumita",
+              "marks": 10,
+              "totalTimeDuration": 90
+            },
+            {
+              "id": 702,
+              "quizId": 1,
+              "quizTopic": "Java",
+              "studentId": 18,
+              "username": "Raju",
+              "marks": 10,
+              "totalTimeDuration": 100
+            },
+            {
+              "id": 703,
+              "quizId": 1,
+              "quizTopic": "Java",
+              "studentId": 25,
+              "username": "Richa",
+              "marks": 10,
+              "totalTimeDuration": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "quizTopic": "Java",
+        "quizInfo": [
+          {
+            "quizName": "Java Basics",
+            "toppers": [
+              {
+                "id": 704,
+                "quizId": 1,
+                "quizTopic": "Java",
+                "studentId": 23,
+                "username": "Moumita",
+                "marks": 10,
+                "totalTimeDuration": 90
+              },
+              {
+                "id": 702,
+                "quizId": 1,
+                "quizTopic": "Java",
+                "studentId": 18,
+                "username": "Raju",
+                "marks": 10,
+                "totalTimeDuration": 100
+              },
+              {
+                "id": 703,
+                "quizId": 1,
+                "quizTopic": "Java",
+                "studentId": 25,
+                "username": "Richa",
+                "marks": 10,
+                "totalTimeDuration": 120
+              }
+            ]
+          }
+        ]
+      },
+    {
+      "quizTopic": "Object-Oriented Programming (OOP)",
+      "quizInfo": [
+        {
+          "quizName": "Advanced OOP Concepts",
+          "toppers": [
+            {
+              "id": 754,
+              "quizId": 10,
+              "quizTopic": "Object-Oriented Programming (OOP)",
+              "studentId": 24,
+              "username": "Astha",
+              "marks": 5,
+              "totalTimeDuration": 240
+            },
+            {
+              "id": 802,
+              "quizId": 10,
+              "quizTopic": "Object-Oriented Programming (OOP)",
+              "studentId": 24,
+              "username": "Astha",
+              "marks": 5,
+              "totalTimeDuration": 240
+            },
+            {
+              "id": 753,
+              "quizId": 10,
+              "quizTopic": "Object-Oriented Programming (OOP)",
+              "studentId": 25,
+              "username": "Richa",
+              "marks": 5,
+              "totalTimeDuration": 290
+            }
+          ]
+        }
+      ]
+    }
+  ]
